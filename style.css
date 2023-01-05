@@ -1,0 +1,32 @@
+
+
+   .seconds {
+     position: absolute;
+     height: 160px;
+     width: 2px;
+     left: 0; right: 0; bottom: 160px; top: 0px;
+     margin: auto;
+     background: #000;
+     -webkit-transform-origin: bottom;
+     background: #FF4136;
+  }
+
+  .minutes {
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    left: 0; right: 0; bottom: 200px; top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+  }
+
+  .hours {
+    position: absolute;
+    height: 80px;
+    width: 6px;
+    left: 0; right: 0; bottom: 80px; top: 0px;
+    margin: auto;
+    background: #000;
+    -webkit-transform-origin: bottom;
+  }
